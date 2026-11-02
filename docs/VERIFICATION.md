@@ -6,7 +6,7 @@
 | Native iOS build | PASS: Release simulator SDK, unsigned, Xcode 26.6 |
 | Xcode static analysis | PASS: `build analyze` completed |
 | Formatting/lint | PASS: `xcrun swift-format lint --strict` |
-| Simulator UI smoke | Local attempt blocked by CoreSimulator sandbox access; CI result pending |
+| Simulator UI smoke | PASS in GitHub Actions: launch, participant creation and screenshot; local simulator sandbox-blocked |
 | Runtime dependency inventory | Zero external runtime packages; no Package.resolved |
 | License review | MIT original source; platform APIs and linked references only |
 | Full-history secret scan | PASS: Gitleaks 8.30.1 scanned all commits before publication; CI scans future history |
@@ -22,3 +22,7 @@ Reviewed input handling, bounds, dependencies, data flows, error output and CI p
 ## Remaining limitations
 
 No physical-device, manual VoiceOver, penetration, external user-acceptance or long-duration performance testing has been performed. No App Store release, Docker service, backend, or hosted API exists, so those deployment checks are not applicable. LinkedIn text is a draft, not a published post.
+
+## GitHub verification
+
+[CI run 41366481495](https://github.com/Talk2rakesh-1/overlap-window-ios/actions/runs/41366481495) passed Swift tests, format lint, native build/analysis and XCUITest. The screenshot in `assets/overlap-window.png` was extracted from the test artifact and visually inspected. [Full-history scan](https://github.com/Talk2rakesh-1/overlap-window-ios/actions/runs/41366388164) passed. Verified application commit: `5500fd5`.

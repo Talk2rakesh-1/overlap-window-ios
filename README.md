@@ -29,6 +29,12 @@ Configuration lasts for the current app session. To change an existing participa
 
 Example: on November 2, 2026, 15:00 UTC is 09:00 in Chicago and 15:00 in London. A 30-minute meeting fits both default work windows.
 
+## Simulator preview
+
+![OverlapWindow after adding a participant](assets/overlap-window.png)
+
+Captured from the passing [CI UI smoke test](https://github.com/Talk2rakesh-1/overlap-window-ios/actions/runs/41366481495). The runner uses UTC; the participants retain their own local dates and offsets. Physical-device and broader accessibility checks remain follow-ups.
+
 ## Architecture
 
 `SwiftUI session state → pure Participant validation / Planner → Foundation calendars → local status and share text`
