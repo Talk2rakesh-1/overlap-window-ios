@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05B8215339D4E0966C936367 /* Planner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F23437ADFF5EE811A7049 /* Planner.swift */; };
+		35F7DFC28B652DD3D2AA949A /* OverlapWindowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A51DA5282B75BF93C389B /* OverlapWindowApp.swift */; };
+		91F89B0AEB07CC5C96D97673 /* PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0D1D25A9E99260EABC476C /* PlannerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BEBAD0CD1A3EE54D1942BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17793534EABC483C1D29E944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B754246CB8672F87BD673C2;
+			remoteInfo = OverlapWindow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C6F23437ADFF5EE811A7049 /* Planner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planner.swift; sourceTree = "<group>"; };
+		2D4A51DA5282B75BF93C389B /* OverlapWindowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlapWindowApp.swift; sourceTree = "<group>"; };
+		496BBFF1E6B436F7159ACAFC /* OverlapWindow.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = OverlapWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0D1D25A9E99260EABC476C /* PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerUITests.swift; sourceTree = "<group>"; };
+		AFC3EDB0C46CE93EF69C1779 /* OverlapWindowUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = OverlapWindowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2C5922E9468A886107EC86CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				496BBFF1E6B436F7159ACAFC /* OverlapWindow.app */,
+				AFC3EDB0C46CE93EF69C1779 /* OverlapWindowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7179D8C06F42CFCCB52766E8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2D4A51DA5282B75BF93C389B /* OverlapWindowApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AFF4A4FCFEE8D769E16B2916 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E0D1D25A9E99260EABC476C /* PlannerUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		B01A5856F48A937558422383 /* OverlapCore */ = {
+			isa = PBXGroup;
+			children = (
+				1C6F23437ADFF5EE811A7049 /* Planner.swift */,
+			);
+			name = OverlapCore;
+			path = Sources/OverlapCore;
+			sourceTree = "<group>";
+		};
+		BB2A9A3AAD275DDA8112B0CF = {
+			isa = PBXGroup;
+			children = (
+				7179D8C06F42CFCCB52766E8 /* App */,
+				B01A5856F48A937558422383 /* OverlapCore */,
+				AFF4A4FCFEE8D769E16B2916 /* UITests */,
+				2C5922E9468A886107EC86CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B754246CB8672F87BD673C2 /* OverlapWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51B1A0E86FABBED96B57C191 /* Build configuration list for PBXNativeTarget "OverlapWindow" */;
+			buildPhases = (
+				16290277E8FA1DCE24DAB5AA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OverlapWindow;
+			packageProductDependencies = (
+			);
+			productName = OverlapWindow;
+			productReference = 496BBFF1E6B436F7159ACAFC /* OverlapWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		760D98541E4BFCD3F46DFC0D /* OverlapWindowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1858972B706B8236D218FC83 /* Build configuration list for PBXNativeTarget "OverlapWindowUITests" */;
+			buildPhases = (
+				ACBACD0FC811DE69825ACC02 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10599A1E042B30E2DFFDBC36 /* PBXTargetDependency */,
+			);
+			name = OverlapWindowUITests;
+			packageProductDependencies = (
+			);
+			productName = OverlapWindowUITests;
+			productReference = AFC3EDB0C46CE93EF69C1779 /* OverlapWindowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17793534EABC483C1D29E944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					760D98541E4BFCD3F46DFC0D = {
+						TestTargetID = 0B754246CB8672F87BD673C2;
+					};
+				};
+			};
+			buildConfigurationList = 685BE74E098869239734DB5C /* Build configuration list for PBXProject "OverlapWindow" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = BB2A9A3AAD275DDA8112B0CF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2C5922E9468A886107EC86CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B754246CB8672F87BD673C2 /* OverlapWindow */,
+				760D98541E4BFCD3F46DFC0D /* OverlapWindowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16290277E8FA1DCE24DAB5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F7DFC28B652DD3D2AA949A /* OverlapWindowApp.swift in Sources */,
+				05B8215339D4E0966C936367 /* Planner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBACD0FC811DE69825ACC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F89B0AEB07CC5C96D97673 /* PlannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10599A1E042B30E2DFFDBC36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B754246CB8672F87BD673C2 /* OverlapWindow */;
+			targetProxy = 2BEBAD0CD1A3EE54D1942BF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24C57CA6F06FEC5314ADCCC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		34B58E6B8FAEC3DB4E6392CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.talk2rakesh.overlapwindow.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OverlapWindow;
+			};
+			name = Debug;
+		};
+		565EEF79939ADF4B91BD7915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.talk2rakesh.overlapwindow.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OverlapWindow;
+			};
+			name = Release;
+		};
+		56BEFDF607E4E4DA1EC24517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		CD78DF956D83F15E50DFA8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.talk2rakesh.overlapwindow;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0F1C0CB7171EE5D2572A606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.talk2rakesh.overlapwindow;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1858972B706B8236D218FC83 /* Build configuration list for PBXNativeTarget "OverlapWindowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B58E6B8FAEC3DB4E6392CA /* Debug */,
+				565EEF79939ADF4B91BD7915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		51B1A0E86FABBED96B57C191 /* Build configuration list for PBXNativeTarget "OverlapWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F1C0CB7171EE5D2572A606 /* Debug */,
+				CD78DF956D83F15E50DFA8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		685BE74E098869239734DB5C /* Build configuration list for PBXProject "OverlapWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56BEFDF607E4E4DA1EC24517 /* Debug */,
+				24C57CA6F06FEC5314ADCCC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17793534EABC483C1D29E944 /* Project object */;
+}
