@@ -9,7 +9,7 @@
 | Simulator UI smoke | Local attempt blocked by CoreSimulator sandbox access; CI result pending |
 | Runtime dependency inventory | Zero external runtime packages; no Package.resolved |
 | License review | MIT original source; platform APIs and linked references only |
-| Full-history secret scan | Pending initial Git commit; result will be recorded before publication |
+| Full-history secret scan | PASS: Gitleaks 8.30.1 scanned all commits before publication; CI scans future history |
 
 Local SwiftPM first failed because the default module cache was outside writable paths. It passed after redirecting `CLANG_MODULE_CACHE_PATH` and `SWIFTPM_MODULECACHE_OVERRIDE` to the workspace and using `--disable-sandbox`. Build products were written outside the repository. Local simulator services were unavailable under the sandbox; this is not a successful UI test.
 
